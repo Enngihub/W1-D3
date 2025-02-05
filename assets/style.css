@@ -5,6 +5,8 @@ max-width: 1920px;
 display: flexbox;
 justify-content: center;
 align-items: center;}
+#first {margin-left: 250px;
+margin-right: 250px;}
 header {text-align: center;}
 #Logo {width:150px;}
 #Titolo {background-color: rgba(246, 143, 0, 0.057);
@@ -27,16 +29,19 @@ border-left: 1px solid rgb(245, 190, 9);
 margin-left: 365px;}
 #ingre {margin-top: 50px;
 border-bottom: 1px solid rgb(0, 255, 247);
-padding-bottom: 20px;margin-left: 365px;}
+padding-bottom: 20px;margin-left: 365px;
+margin-right: 250px;}
 #up {margin-left: 350px;}
 #down {margin-left: 350px;}
 h4 {margin-left: 365px;}
 #meth {margin-left: 365px;
 border-bottom: 1px solid rgb(0, 255, 247);
-padding-bottom: 20px;}
+padding-bottom: 20px;
+margin-right: 250px;}
 .sopra {margin-top: 20px;}
 .sotto {margin-top: 20px;}
 #solo {margin-left: 365px;}
-#finale {margin-left: 405px;}
+#finale {margin-left: 405px;
+margin-right: 250px;}
 #ultima {margin-left: 365px;}
 #simply {color: rgb(5, 89, 69);}
