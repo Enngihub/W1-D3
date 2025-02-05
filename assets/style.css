@@ -1,13 +1,12 @@
-body, html {margin: 0;
-padding: 0;
-height: 100;
-max-width: 1920px;
-display: flexbox;
-justify-content: center;
-align-items: center;}
-#first {margin-left: 250px;
-margin-right: 250px;}
-header {text-align: center;}
+main {width: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+    header{text-align: center;}
+footer {width: 50%;
+    margin-left: auto;
+    margin-right: auto;}
+    header{text-align: center;}
+
 #Logo {width:150px;}
 #Titolo {background-color: rgba(246, 143, 0, 0.057);
 font-size: 13px;
@@ -15,33 +14,24 @@ font-style:oblique;
 padding: 12px;
 border-top: 1px solid rgba(246, 144, 0, 0.628);}
 #focaccia {border-radius: 10px;
-width: 750px;
+width: 100%;
 box-shadow: 2px 2px 8px rgba(11, 11, 11, 0.643);}
 #sally { color: rgb(176, 170, 170);
-margin-top: 3;}
+margin-top: 3; margin-left: 35%;}
 #feat { color: #bc0d0d;
-margin-left: 365px;}
-#fresh {color: rgb(5, 89, 69);
-    margin-left: 365px;}
+}
+#fresh {color: rgb(5, 89, 69);}
 #feat, #fresh {margin-bottom: 0;
 padding: 5px;
-border-left: 1px solid rgb(245, 190, 9);
-margin-left: 365px;}
+border-left: 1px solid rgb(245, 190, 9);}
 #ingre {margin-top: 50px;
 border-bottom: 1px solid rgb(0, 255, 247);
-padding-bottom: 20px;margin-left: 365px;
-margin-right: 250px;}
-#up {margin-left: 350px;}
-#down {margin-left: 350px;}
-h4 {margin-left: 365px;}
-#meth {margin-left: 365px;
+padding-bottom: 20px}
+#meth {
 border-bottom: 1px solid rgb(0, 255, 247);
 padding-bottom: 20px;
-margin-right: 250px;}
+}
 .sopra {margin-top: 20px;}
-.sotto {margin-top: 20px;}
-#solo {margin-left: 365px;}
-#finale {margin-left: 405px;
-margin-right: 250px;}
-#ultima {margin-left: 365px;}
+.sotto {margin-top: 20px;};
+#ultima {}
 #simply {color: rgb(5, 89, 69);}
