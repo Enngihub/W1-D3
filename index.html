@@ -1,67 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Focaccia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
   </head>
   <body>
     <header>
-      <img id="Logo" src="./assets/logo.png" />
-      <p id="Titolo">
-        Part of <strong> A SIMPLY FABULOUS THANKSGIVING</strong>
-      </p>
+      <div class="d-flex flex-row justify-content-center">
+        <img class="h-auto w-auto mb-4" src="./assets/logo.png" />
+      </div>
+      <div
+        class="d-flex flex-row justify-content-center p-3 bg-warning bg-opacity-10 border-top border-warning"
+      >
+        <p class="text">
+          Part of <strong> A SIMPLY FABULOUS THANKSGIVING</strong>
+        </p>
+      </div>
     </header>
     <main>
-      <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
-      <p id="first">
-        Wow your taste buds with this festive focaccia appetizer topped with
-        sweet caramelized onions, tart cranberries, and creamy brie. It will
-        become your new favorite holiday starter!
-      </p>
-      <img id="focaccia" src="./assets/focaccia.png" alt="" />
-      <p id="sally">Image: Sally Vegas</p>
-      <p id="feat">FEATURED IN:</p>
-      <a id="fresh" href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
-      <h2 id="ingre">Ingredients</h2>
-      <h4>For the focaccia:</h4>
-      <ul id="up">
-        <li class="sopra">4 cups (500g) all-purpose flour</li>
-        <li class="sopra">11/2 teaspoons instant yeast</li>
-        <li class="sopra">11/2 teaspoons salt</li>
-        <li class="sopra">13/4 cups (350g) lukewarm water</li>
-        <li class="sopra">
-          1/4 cup extra virgin olive oil, plus more for the pan
-        </li>
-      </ul>
-      <h4>For the topping:</h4>
-      <ul id="down">
-        <li class="sotto">3 medium yellow onions, thinly sliced</li>
-        <li class="sotto">1 tablespoon balsamic vinegar</li>
-        <li class="sotto">1-2 tablespoons olive oil, for brushing on top</li>
-        <li class="sotto">
-          10 ounces brie, cut into cubes (scrape rind off with a paring knife if
-          desired, though it's not necessary)
-        </li>
-        <li>1 1/2 cups fresh or frozen cranberries</li>
-      </ul>
+      <div
+        class="container flex-column justify-content-center align-content-center p-3"
+      >
+        <h1 class="d-flex flex-row justify-content-center">
+          Focaccia with Caramelized Onions, Cranberries, and Brie
+        </h1>
+        <p class="d-flex flex-row justify-content-center">
+          Wow your taste buds with this festive focaccia appetizer topped with
+          sweet caramelized onions, tart cranberries, and creamy brie. It will
+          become your new favorite holiday starter!
+        </p>
+      </div>
+      <div class="container">
+        <div class="d-flex flex-row justify-content-center">
+          <img class="rounded shadow" src="./assets/focaccia.png" alt="" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <p class="text-opacity-100">Image: Sally Vegas</p>
+        </div>
+        <div
+          id="feat"
+          class="d-flex flex-lg-column mt-4 border-start border-warning p-3"
+        >
+          <p>FEATURED IN:</p>
+          <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-flex flex-column">
+          <h2 class="border-bottom border-info p-4 align-content-start">
+            Ingredients
+          </h2>
+          <div class="m-5">
+            <h4>For the focaccia:</h4>
+            <ul>
+              <li class="m-3" class="m-3">4 cups (500g) all-purpose flou</li>
+              <li class="m-3" class="m-3">11/2 teaspoons sal</li>
+              <li class="m-3" class="m-3">11/2 teaspoons instant yeas</li>
+              <li class="m-3" class="m-3">13/4 cups (350g) lukewarm wate</li>
+              <li class="m-3">
+                1/4 cup extra virgin olive oil, plus more for the pan
+              </li>
+            </ul>
+            <h4>For the topping:</h4>
+            <ul>
+              <li class="m-3">3 medium yellow onions, thinly sliced</li>
+              <li class="m-3">1 tablespoon balsamic vinegar</li>
+              <li class="m-3">
+                1-2 tablespoons olive oil, for brushing on top
+              </li>
+              <li class="m-3">
+                10 ounces brie, cut into cubes (scrape rind off with a paring
+                knife if desired, though it's not necessary)
+              </li>
+              <li class="m-3">1 1/2 cups fresh or frozen cranberries</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-      <h2 id="meth">Method</h2>
-      <ol>
-        <li id="solo"><strong>Make the focaccia dough</strong></li>
-      </ol>
-      <p id="finale">
-        In a medium-sized mixing bowl, or in a stand mixer with a paddle
-        attachment, mix together all the dough ingredients until the flour is
-        fully absorbed. You don't need to actually knead the dough, though I
-        sometimes knead it a few times in the bowl when mixing by hand to
-        incorporate the last of the flour...
-      </p>
-      <p id="ultima">
-        Read more on <a id="simply" href="#"> Simply reciper</a>
-      </p>
+      <div class="container">
+        <h2 class="border-bottom border-info p-4">Method</h2>
+        <div class="d-flex flex-column">
+          <ol>
+            <li class="m-3"><strong>Make the focaccia dough</strong></li>
+          </ol>
+          <p class="align-content-center">
+            In a medium-sized mixing bowl, or in a stand mixer with a paddle
+            attachment, mix together all the dough ingredients until the flour
+            is fully absorbed. You don't need to actually knead the dough,
+            though I sometimes knead it a few times in the bowl when mixing by
+            hand to incorporate the last of the flour...
+          </p>
+        </div>
+        <p>Read more on <a href="#"> Simply reciper</a></p>
+      </div>
     </footer>
   </body>
 </html>
